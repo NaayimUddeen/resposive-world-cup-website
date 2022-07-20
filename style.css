@@ -4,7 +4,7 @@ main{
 /* top banner Section */
 .top-banner{
     display: flex;
-    background-color: black;
+    background-color: #3d3d3d;
     border-radius: 15px;
     color: white;
 }
@@ -35,21 +35,79 @@ main{
     cursor:grab;
     width: 200px;
 }
-
-/* Section: Up-Comming match, ALL Group & Blog */
+/*---------------
+        top-blogs
+------------------ */
+.top-blogs{
+    display: flex;
+    /* flex-grow: 3; */
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    /* flex-grow: 3; */
+}
+.blog{
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    width: 310px;
+}
+/* ---------------------------------------------
+Section: Up-Comming match, ALL Group & Blog-link 
+------------------------------------------------*/
 .menu-link{
     font-size: 20px;
-    background-color: black;
+    background-color: #3d3d3d;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    height: 200px;
+    height: 160px;
     width: 200px;
-    text-decoration: none;
-
-    /* justify-content: flex-start;
-    justify-items: flex-end; */
+    padding: 15px;
 }
-up-comming-match{
+.menu-link a{
     text-decoration: none;
+}
+.up-comming-match,.all-group, .blog-news {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #3d3d3d;
+    text-align: center;
+    height: 30px;
+    width: 180px;
+}
+/* .up-comming-match:hover{
+background-color: aqua;
+} */
+.up-comming-match a, .all-group a, .blog-news a{
+    color: #3d3d3d;
+    font-weight: 600;
+}
+.up-comming-match:hover, .all-group:hover, .blog-news:hover{
+    background-color: tomato;
+    transition-duration: 1s;
+
+}
+
+
+/* ------------------------
+    blogs internel section
+    -----------------------*/
+
+.thumbnail-info{
+    padding: 15px;
+}
+.blog-link-btn{
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+
+}
+.blog-icon{
+    display: flex;
+    justify-content: space-evenly;
 }
