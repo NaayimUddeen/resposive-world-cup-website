@@ -1,7 +1,16 @@
+/* <!--Google fonts --> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 main{
     margin: 50px 100px 100px 100px;
 }
-/* top banner Section */
+/*---------------- 
+top banner Section
+ ----------------*/
 .top-banner{
     display: flex;
     background-color: #3d3d3d;
@@ -16,9 +25,6 @@ main{
     font-size: 36px;
     font-weight: 600;
 }
-.banner-player-img{
-    /* margin-bottom: 0; */
-}
 .btn{
     font-size: 18px;
     font-weight: 600;
@@ -29,7 +35,6 @@ main{
     height: 60px;
     transition-property: width;
     transition-duration: 2s;
-
 }
 .btn:hover{
     background-color: orangered;
@@ -54,9 +59,9 @@ main{
     border-radius: 5px;
     width: 310px;
 }
-/* ---------------------------------------------
-Section: Up-Comming match, ALL Group & Blog-link 
-------------------------------------------------*/
+/* -----------------------------------
+Section: match, ALL Group & Blog-link 
+--------------------------------------*/
 .menu-link{
     font-size: 20px;
     background-color: #3d3d3d;
@@ -108,10 +113,10 @@ Section: Up-Comming match, ALL Group & Blog-link
 /*------------------------- 
 view-all button for Tablet 
 --------------------------*/
-
 .view-all{
     display: none;
 }
+
 /*--------
  - Footer -
  --------*/
@@ -134,8 +139,6 @@ view-all button for Tablet
     padding-bottom: 30px;
  }
  hr{
-    /* width: 100%; */
-    /* margin: 0px 200px 0px 0px; */
     margin-left: 200px;
     margin-right: 200px;
  }
@@ -150,7 +153,9 @@ view-all button for Tablet
  -responsive-
  -----------*/
 
-/* Extra small devices (phones, 688px and down) */
+/*------------------------------------------ 
+Extra small devices (phones, 688px and down)
+ ------------------------------------------*/
  @media only screen and (max-width:688px) {
     .top-banner{
         /* width: 100%; */
@@ -173,10 +178,10 @@ view-all button for Tablet
     }
 }
 
- /*------------- 
- Tablet Devices 
- --------------*/
- 
+ /*----------------------------
+Tablet Devices, 689px to 992px)
+ ------------------------------*/
+
 @media only screen and (min-width:689px) and (max-width:992px){
     .top-banner, .top-blogs{
         /* width: 100%; */
