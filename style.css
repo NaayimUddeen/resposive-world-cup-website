@@ -1,17 +1,22 @@
 main{
-    margin: 30px 100px 0px 100px;
+    margin: 30px 100px 100px 100px;
 }
 /* top banner Section */
-section{
+.top-banner{
     display: flex;
     background-color: black;
     border-radius: 15px;
     color: white;
 }
 .banner-info{
-    margin-top: 100px;
-    margin-left: 100px;
-    /* padding: 50px; */
+    margin: 100px 300px 0px 100px;
+}
+.banner-info h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.banner-player-img{
+    /* margin-bottom: 0; */
 }
 .btn{
     font-size: 18px;
@@ -29,7 +34,22 @@ section{
     background-color: orangered;
     cursor:grab;
     width: 200px;
-    /* width: 100px;
-    height: 100px;
-    background: orange;
+}
+
+/* Section: Up-Comming match, ALL Group & Blog */
+.menu-link{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    text-decoration: none;
+
+    /* justify-content: flex-start;
+    justify-items: flex-end; */
+}
+up-comming-match{
+    text-decoration: none;
 }
