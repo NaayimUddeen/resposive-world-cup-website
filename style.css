@@ -1,0 +1,35 @@
+main{
+    margin: 30px 100px 0px 100px;
+}
+/* top banner Section */
+section{
+    display: flex;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+.banner-info{
+    margin-top: 100px;
+    margin-left: 100px;
+    /* padding: 50px; */
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    transition-property: width;
+    transition-duration: 2s;
+
+}
+.btn:hover{
+    background-color: orangered;
+    cursor:grab;
+    width: 200px;
+    /* width: 100px;
+    height: 100px;
+    background: orange;
+}
